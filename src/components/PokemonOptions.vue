@@ -1,11 +1,10 @@
 <template>
     <div class="options-container">
         <ul>
-            <li>El chavo</li>
-            <li>El tux</li>
-            <li>El cap</li>
-            <li>El musu</li>
-            <li>El Xomi</li>
+            <li v-for="pokemon in pokemons" :key="pokemon.id">
+                {{ pokemon.name }}
+            </li>
+            
         </ul>
     </div>
     
@@ -13,7 +12,13 @@
 
 <script>
 export default {
+    props: {
+        pokemons: {
+            type: Array,
+            required: true
+        }
 
+    }
 }
 </script>
 
