@@ -1,4 +1,4 @@
-import getPokemonOptions, {getPokemons, getPokemonName} from "@/helpers/getPokemonOptions";
+import getPokemonOptions, {getPokemons, getPokemonName} from '@/helpers/getPokemonOptions';
 
 describe('getPokemonOptions helpers', () => {
     test('debe de regresar un arreglo de numeros ', () => {

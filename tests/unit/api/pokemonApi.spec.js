@@ -1,4 +1,4 @@
-import pokemonApi from "@/api/pokemonApi";
+import pokemonApi from '@/api/pokemonApi';
 
 describe('pokemonApi', () => {
     test('axios debe de estar configurado con el api de pokemons', () => {

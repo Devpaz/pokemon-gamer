@@ -1,4 +1,4 @@
-import pokemonApi from "@/api/pokemonApi"
+import pokemonApi from '@/api/pokemonApi'
 
 export const getPokemons = () => {
     const pokemonsArr = Array.from( Array(650) )
