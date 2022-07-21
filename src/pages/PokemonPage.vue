@@ -54,7 +54,7 @@ export default {
         if ( selectedId === this.pokemon.id) {
           this.message = `Correcto, ${this.pokemon.name}`
         } else {
-          this.message = `Que Webon eres , era ${this.pokemon.name}`
+          this.message = `Incorrecto , era ${this.pokemon.name}`
         }
 
       },
